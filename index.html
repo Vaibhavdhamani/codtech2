@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather Forecast-APP</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Weather APP</h1>
+        <div class="s-box">
+            <input type="text" id="city" placeholder="Enter city">
+            <button onclick="getweather()"><i class="fas fa-magnifying-glass"></i></button>
+        </div>
+        <div id="loader" style="display: none;"></div>
+        <div id="weather" style="display: none;">
+         <h2 id="city-name"></h2>
+         <div class="weather-icon" id="weather-icon">
+            <i class="fas fa-sun"></i>
+            <i class="fas fa-cloud"></i>
+            <i class="fas fa-moon"></i>
+            <i class="fas fa-cloud-rain"></i>
+            <i class="fas fa-snowflake"></i>
+            <i class="fas fa-bolt"></i>
+            <i class="fas fa-wind"></i>
+         </div>
+         <p id="temperature"><i fas fa-thermometer-half></i><span id="temp-value"></span></p>
+         <p id="description"></p>
+         <p id="humidity"><i fas fa-tint><span id="humidity-value"></span></i></p>
+         <div class="wind">
+            <i class="fas fa-wind"></i>
+            <p id="wind"></p>
+         </div>
+         <div class="date-time">
+            <p id="current-date"><i class="fas fa-calendar-day"></i><span id="date-value"></span></p>
+            <p id="current-time"><i class="fas fa-clock"></i><span id="time-value"></span></p>
+            <p id="current-year"><i class="fas fa-calendar-alt"></i><span id="year-value"></span></p>
+         </div>
+        </div>
+    </div>
+    <script src="index.js"></script>
+</body>
+</html>
