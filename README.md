@@ -23,11 +23,10 @@ Project Steps Setup
 Initialize the project with Git and a package manager (e.g., npm). Frontend Development
 
 Create HTML structure for the app. Style the app using CSS. Add interactivity with JavaScript.
-![Screenshot 2024-07-09 111732](https://github.com/Vaibhavdhamani/codtech2/assets/146102180/a10b6a5e-c9d5-407c-b846-c8305469b470)
-
 
 Key Features Task Management
 
 Add, view, edit, and delete tasks. Real-time Updates
 
 Implement WebSockets for live task updates.
+![Screenshot 2024-07-09 111732](https://github.com/Vaibhavdhamani/codtech2/assets/146102180/3efed357-ceca-4a26-816b-a622746957c2)
